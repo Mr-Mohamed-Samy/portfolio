@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body{
+            background-color: rgb(231, 231, 231);
+        }
+        h1{
+            font-size: 20px;
+            font-family: cursive,sans;
+            font-weight: 100;
+            margin-left: 80px;
+            margin-top: 30px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-family: cursive,sans;
+        }
+        ul{
+            list-style-type: none;
+        }
+        .navbar a{
+            display: grid;
+            grid-template-rows: 0px;
+            grid-template-columns: 70px 120px 95px 100px;
+        }
+        .about{
+            grid-row: 1 ;
+            grid-column: 1 / 2 ;
+            justify-self: center;
+        }
+        .exp{
+            grid-row: 1 ;
+            grid-column: 2 / 3;          
+            justify-self: center;
+        }
+        .projects{
+            grid-row: 1 ;
+            grid-column: 3 / 4;
+            justify-self: center;
+        }
+        .contacts{
+            grid-row: 1 ;
+            grid-column: 4 / 5;
+            justify-self: center;
+        }
+        .container{
+            margin-left: 700px;
+            margin-top: -30px;
+        }
+        .container1{
+            display: grid;
+            grid-template-rows: 0px;
+            grid-template-columns: 250px 200px ;
+            margin-top: 150px;
+            margin-left: 300px;
+        }
+        .img{
+            border-radius: 50%;
+            height: 300px;
+            width: 270px;
+            grid-row: 1;
+            grid-column: 1 / 2;
+        }
+        .container2{
+            margin-top: 25px;
+            grid-row: 1;
+            grid-column: 2 / 3;
+            margin-left: -50px;
+        }
+        .text{
+            font-size: 19px;
+            font-family: cursive;
+            margin-bottom: -15px;
+            margin-left: 160px;
+            color: rgb(70, 69, 69);
+        }
+        .text1{
+            font-size: 28px;
+            font-family: cursive;
+            margin-bottom: -10px;
+            font-weight:100;
+            margin-top: 15px;
+        }
+        .text2{
+            font-size: 20px;
+            font-family: cursive;
+            margin-left: 60px;
+            margin-top: -15px;
+            color: rgb(70, 69, 69);
+        }
+        .container3{
+            margin-top: 400px;
+        }
+        .more{
+            color: gray;
+            justify-content: center;
+            display: flex;
+            font-family: cursive;
+        }
+        .about-me{
+            justify-content: center;
+            display: flex;
+            margin-right: 80px;
+            font-size: 40px;
+        }
+        .content{
+           display:flex;
+        }
+        .profile{
+            border-radius: 30px;
+            margin-left: 150px;
+            height: 350px;
+            width: 350px;
+        }
+        .exe{
+            color: gray;
+            margin-right: 100px;
+            font-family: cursive;
+            margin-top: 0px;
+        }
+        .expe{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+            border: 1px groove black;
+            border-radius: 30px;
+            flex-direction: column;
+            height: 180px;
+            width: 250px;
+           margin-left: 60px;
+           margin-top: 30px;
+        }
+        .exx{
+            margin-right: 80px;
+            margin-bottom: 20px;
+        }
+        .exex{
+            margin-bottom: 30px;
+            margin-right: 80px;
+        }
+        .ex{
+            margin-top: 30px;
+            margin-bottom: -20px;
+        }
+        .exxx{
+            margin-top: 10px;
+        }
+        .pro{
+           margin-top: 50px;
+           margin-right: 80px;
+           margin-left:-60px;
+        }
+        .exper{
+            display: flex;
+           align-items: center;
+           justify-content: center;
+            border: 1px groove black;
+            border-radius: 30px;
+            flex-direction: column;
+            height: 180px;
+            width: 250px;
+           margin-left: 60px;
+           margin-top: 30px;
+        }
+        .exee{
+            color: gray;
+            font-family: cursive;
+            margin-right:150px;
+            margin-top: 0px;
+        }
+        .content1{
+            display: flex;
+            margin-top: 50px;
+            margin-left: 70px;
+            gap: 0px;
+        }
+        .me{
+            display: flex;
+            margin-top: 220px;
+            margin-left: -670px;
+        }
+        .mee{
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chabani Mohamed Samy</h1>
+    <div class="container">
+    <nav class="navbar">
+        <ul>
+            <a href=""><li class="about">About</li></a>
+            <a href=""><li class="exp">Experience</li></a>
+            <a href=""><li class="projects">Projects</li></a>
+            <a href="contacts.html"><li class="contacts">Contacts</li></a>
+        </ul>
+    </nav>
+    </div>
+    <div class="container1">
+        <img class="img" src="samm.png">
+        <div class="container2">
+            <pre class="text">
+              Hello, I'm
+            </pre>
+            <pre class="text1">
+                Chabani Mohamed Samy
+            </pre>
+            <pre class="text2">
+                A Computer Science student 
+                at the University of Batna 2
+                                   &
+                     Frontend developer            
+            </pre>
+        </div>
+    </div>
+    <div class="container3">
+        <p class="more">
+            Get To Know More
+        </p>
+        <h1 class="about-me">
+            About Me
+        </h1>
+        <div class="content">
+            <div class="content1">
+                <span class="expe">
+                    <img src="expe.png" class="ex">
+                    <h1 class="exx">
+                         Experience
+                    </h1>
+                    <pre class="exe">
+                                 +1 month
+                        Frontend Development
+                    </pre>
+                </span>
+                <span class="exper">
+                    <img src="education.png" class="exxx">
+                    <h1 class="exex">
+                         Education
+                    </h1>
+                    <pre class="exee">
+                                 Computer Engineer
+                    </pre>
+                </span>
+                <div class="me">
+                    <pre class="mee">
+                        My name is Chabani Mohamed Samy, I was born on 16th Octobe of 2005,
+                        And I'm from Algeria.
+                    </pre>
+                </div>
+            </div>
+                <div class="pro">
+                    <img src="profile.jpg" class="profile">
+                </div>
+        </div>
+    </div>
+</body>
+</html>
